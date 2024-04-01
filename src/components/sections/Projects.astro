@@ -1,0 +1,37 @@
+---
+import Project from "../cards/Project.astro";
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Title from "../shared/Title.astro";
+import { projects } from "../../utils/data.ts";
+
+
+type ProjectsProps = {
+    title: string;
+    image: string;
+    description: string;
+    url: string
+};
+
+
+---
+
+<section id="proyectos">
+    <Container className="space-y-10 md:sapce-y-12">
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+            <Title>
+               NUESTROS PROYECTOS
+            </Title>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            {
+                    projects.map((service: ProjectsProps) => {
+                    return (
+                            <Project title={service.title} description={service.description} image={service.image} url={service.url}>
+                            </Project>
+                            );
+                    })
+            }
+        </div>
+    </Container>
+</section>
