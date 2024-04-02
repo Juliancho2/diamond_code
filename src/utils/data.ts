@@ -25,25 +25,25 @@ const services = [
 const projects = [
     {
         title: "BrainWork",
-        image: "../../public/images/projects/brainwork-min.webp",
+        image: "/images/projects/brainwork-min.webp",
         description: "Aplicación web para crear entornos de trabajo colaborativo y facilitar la interacción entre profesores y alumnos.",
         url: "https://brain-work-green.vercel.app/"
     },
     {
         title: "Inngenian",
-        image: "../../public/images/projects/inngenian-min.webp",
+        image: "/images/projects/inngenian-min.webp",
         description: "Aplicacion web principal del startup Inngenian donde ofrecen sus servicios y credibilidad a sus clientes.",
         url: "https://inngenian.com/"
     },
     {
         title: "Programmer-Center-is-Cool",
-        image: "../../public/images/projects/programmer-center-is-cool-min.webp",
+        image: "/images/projects/programmer-center-is-cool-min.webp",
         description: "Aplicacion web estimulada como una miniredsocial donde puedes publicar imagenes comentar dar likes seguir a personas ver perfiles guardar publicaciones reaccionar y etc.",
         url: "https://programmercenter-is-cool.vercel.app/"
     },
     {
         title: "Gespel",
-        image: "../../public/images/projects/gespel-min.webp",
+        image: "/images/projects/gespel-min.webp",
         description: "Aplicacion web donde puedes administrar fácilmente todos los aspectos relacionados con vehiculos. Administrando cada informacion y caracteristica de vehiculos agregados al sistema, administrado por roles.",
         url: "https://gespel.vercel.app/"
     },
